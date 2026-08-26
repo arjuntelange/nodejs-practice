@@ -1,5 +1,7 @@
-import { createUser } from "./user.js";
+import { getStudents } from "./students.js";
 
-const userInfo = createUser("Arjun", 19);
+const students = getStudents();
 
-console.log(`Name: ${userInfo.name}\nAge: ${userInfo.age}`);
+for (const student of students) {
+  console.log(student, "\n");
+}
