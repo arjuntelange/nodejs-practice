@@ -1,9 +1,9 @@
 function sayHello(name) {
-  return console.log(`Hello ${name}`);
+  console.log(`Hello ${name}`);
 }
 
 function sayGoodbye(name) {
-  return console.log(`Goodbye ${name}`);
+  console.log(`Goodbye ${name}`);
 }
 
 module.exports = {

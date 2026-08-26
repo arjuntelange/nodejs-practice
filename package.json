@@ -11,7 +11,7 @@
     "url": "git+https://github.com/arjuntelange/nodejs-practice.git"
   },
   "keywords": [],
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/arjuntelange/nodejs-practice/issues"
   },
