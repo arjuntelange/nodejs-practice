@@ -1,5 +1,5 @@
-import { add, sub, mul } from "./math.js";
+import { createUser } from "./user.js";
 
-console.log("Addition: ", add(17, 17));
-console.log("Subtraction: ", sub(37, 14));
-console.log("Multiplication: ", mul(24, 3));
+const userInfo = createUser("Arjun", 19);
+
+console.log(`Name: ${userInfo.name}\nAge: ${userInfo.age}`);
