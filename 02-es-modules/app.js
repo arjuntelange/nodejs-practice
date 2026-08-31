@@ -1,7 +1,7 @@
-import { getStudents } from "./students.js";
+import { company, getUser } from "./user.js";
 
-const students = getStudents();
+const user = getUser();
 
-for (const student of students) {
-  console.log(student, "\n");
-}
+console.log("Company:", company);
+console.log("Name:", user.name);
+console.log("Age:", user.age);

@@ -1,6 +1,8 @@
-export function createUser(name, age) {
+export const company = "OpenAI";
+
+export function getUser() {
   return {
-    name,
-    age,
+    name: "Arjun",
+    age: 19,
   };
 }
