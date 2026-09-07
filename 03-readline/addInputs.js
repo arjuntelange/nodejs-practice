@@ -6,10 +6,11 @@ const rl = readline.createInterface({
 });
 
 rl.question("Enter first number: ", (no1) => {
-  let num1 = no1;
   rl.question("Enter second number: ", (no2) => {
-    let num2 = no2;
-    console.log(`Addition of ${num1} + ${num2} =`, Number(no1) + Number(no2));
+    const num1 = Number(no1);
+    const num2 = Number(no2);
+
+    console.log(`Addition of ${num1} + ${num2} = ${num1 + num2}`);
     rl.close();
   });
 });
