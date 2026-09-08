@@ -1,4 +1,0 @@
-In Node.js, fs.writeFile() is a built-in method used to asynchronously write data to a file.
-
-appendFile()
-In Node.js, the fs.appendFile() method adds data to the end of a file
