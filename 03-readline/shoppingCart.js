@@ -10,7 +10,7 @@ async function askNumber(promptText) {
     const input = await rl.question(promptText);
     const parsed = Number(input);
 
-    if (!isNaN(parsed) && input.trim() !== null) {
+    if (!isNaN(parsed) && input.trim() !== "") {
       return parsed;
     }
 
