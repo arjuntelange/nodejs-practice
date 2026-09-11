@@ -1,0 +1,34 @@
+========================================
+           NOTE / DOCUMENT TITLE
+========================================
+
+Date: September 11, 2026
+Author: User
+Topic: General Notes
+
+----------------------------------------
+1. Introduction
+----------------------------------------
+This is a plain text file. Plain text files 
+do not use complex formatting like bold, 
+italics, or custom fonts. They work on 
+almost any computer and operating system.
+
+----------------------------------------
+2. Key Points
+----------------------------------------
+* Simple to read and write.
+* Very small file size.
+* Compatible with Notepad, TextEdit, 
+  and all code editors.
+
+----------------------------------------
+3. Next Steps
+----------------------------------------
+- Add your own custom notes here.
+- Save the file using the .txt extension.
+- Keep backing up important text data.
+
+========================================
+            END OF FILE
+========================================
