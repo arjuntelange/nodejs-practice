@@ -1,0 +1,24 @@
+======================================================================
+NODE.JS CORE CHEAT SHEET
+======================================================================
+
+1. WHAT IS NODE.JS?
+   - A runtime environment built on Google Chrome's V8 JavaScript engine.
+   - Allows running JavaScript on the server side instead of just browsers.
+   - Asynchronous, event-driven, and non-blocking I/O architecture.
+
+2. CORE MODULES DEFINITION
+   - fs: File system manipulation (read, write, delete).
+   - path: Utilities for working with file and directory paths.
+   - http: Spawning web servers and making HTTP requests.
+   - os: Accesses operating system information (CPU, memory, uptime).
+
+3. ESSENTIAL FILE SYSTEM COMMANDS (fs)
+   - Read File:  fs.readFile('path', 'utf8', (err, data) => { ... })
+   - Write File: fs.writeFile('path', 'content', (err) => { ... })
+   - Append:     fs.appendFile('path', 'extra text', (err) => { ... })
+
+4. KEY CONCEPTS
+   - npm (Node Package Manager): Registry for sharing reusable JS code.
+   - Node Modules: CommonJS (require/module.exports) vs ES Modules (import/export).
+   - Event Loop: Handles async execution blocks without halting the main thread.
