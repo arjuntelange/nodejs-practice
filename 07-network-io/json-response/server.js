@@ -19,8 +19,6 @@ const server = http.createServer((req, res) => {
     "error": "Route Not Found"
   };
 
-  res.writeHead(200, { "Content-Type": "application/json" })
-
   if (req.url === "/") {
     res.writeHead(200, {
         "Content-Type": "application/json",
