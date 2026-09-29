@@ -2,6 +2,12 @@ import net from "node:net";
 
 const server = net.createServer((client) => {
   console.log("Client Connected!");
+
+  client.on("data", (data) => {
+    const message = data.toString().trim();
+    console.log(`Received from client: ${message}`);
+  });
+
   client.on("end", () => {
     console.log("Client Disconnected!");
   });
