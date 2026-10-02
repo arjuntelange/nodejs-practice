@@ -6,6 +6,7 @@ const server = net.createServer((client) => {
   client.on("data", (data) => {
     const message = data.toString().trim();
     console.log(`Received from client: ${message}`);
+    client.write("Welcome Arjun! 🎉");
   });
 
   client.on("end", () => {
