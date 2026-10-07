@@ -6,5 +6,8 @@ const message = Buffer.from("Hello from the UDP Client!");
 
 client.send(message, 4000, "localhost", () => {
   console.log("Message sent successfully!");
-  client.close();
+});
+
+client.on("message", (msg) => {
+  console.log(msg.toString());
 });
