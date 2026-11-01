@@ -6,13 +6,14 @@ if (cluster.isPrimary) {
   const cpuCount = os.cpus().length;
 
   console.log(`Primary Process: ${process.pid}`);
-  console.log(`CPU Cores: ${cpuCount}`);
 
   for (let i = 0; i < cpuCount; i++) {
     cluster.fork();
   }
 } else {
   const server = http.createServer((req, res) => {
+    if (req.url === "/") {
+    }
     res.end(`Handled by worker: ${process.pid}`);
   });
 
