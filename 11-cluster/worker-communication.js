@@ -1,5 +1,4 @@
 import cluster from "node:cluster";
-import os from "node:os";
 
 if (cluster.isPrimary) {
   console.log(`Primary Process: ${process.pid}`);
